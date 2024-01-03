@@ -1,0 +1,6 @@
+@forward 'boilerplate';
+@forward 'typography';
+@forward 'colors';
+//this index.scss files takes in the boilerpalte and the typography files and helps
+// forward them into the main sass file which is the styles.scss
+

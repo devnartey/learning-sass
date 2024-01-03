@@ -1,0 +1,9 @@
+@use "../util/" as u; // we have set a variable u for the module we have imported hence when calling util in the file we need to use the letter "u".
+// you can also use wiwldcards as well  ie; @use "../util' as *; hence calling it becomes just the normal variable name.
+body{
+    margin: 0;
+    padding: 0;
+    font-family: u.$font;
+    background-color: var(--background-color);
+    color: var(--text-color); //css custom properties
+}
