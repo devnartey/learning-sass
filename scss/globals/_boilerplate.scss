@@ -1,5 +1,12 @@
 @use "../util/" as u; // we have set a variable u for the module we have imported hence when calling util in the file we need to use the letter "u".
 // you can also use wiwldcards as well  ie; @use "../util' as *; hence calling it becomes just the normal variable name.
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
 body{
     margin: 0;
     padding: 0;
@@ -7,3 +14,4 @@ body{
     background-color: var(--background-color);
     color: var(--text-color); //css custom properties
 }
+
